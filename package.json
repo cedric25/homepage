@@ -1,0 +1,14 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "sass": "^1.26.5",
+    "vite": "^0.5.1"
+  }
+}
