@@ -204,6 +204,10 @@ $screen-xl: 1280px;
           padding: 0.7rem;
           margin-bottom: 0.6em;
 
+          @media (min-width: $screen-md) {
+            padding: 0.7rem 1rem;
+          }
+
           &:hover {
             opacity: 1;
           }
