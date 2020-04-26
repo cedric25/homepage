@@ -11,13 +11,7 @@
       What I like
     </h1>
     <p>
-      Vue, apollo, tailwindcss
-    </p>
-    <p>
-      Node, pino
-    </p>
-    <p>
-      WebStorm
+      Vue, Node, apollo, tailwindcss, WebStorm
     </p>
 
     <h1 style="margin-top: 5rem;">
