@@ -91,15 +91,14 @@ $screen-lg: 1024px;
 $screen-xl: 1280px;
 
 .black-wrap {
-  display: flex;
-  flex-direction: column;
   background-color: black;
-  position: relative;
 
   @media (min-width: $screen-md) {
     width: 300px;
     position: fixed;
     min-height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   @media (min-width: $screen-lg) {
