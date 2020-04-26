@@ -57,11 +57,10 @@ $screen-xl: 1280px;
   flex: 1;
 
   @media (min-width: $screen-sm) {
-    padding: 5rem;
+    padding: 3rem 5rem;
   }
 
   @media (min-width: $screen-md) {
-    width: 66%;
     margin-left: 300px;
   }
 
