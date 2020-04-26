@@ -1,8 +1,6 @@
 <template>
-  <div class="comp-wrap">
-    <TopOrLeft />
-    <MainContent />
-  </div>
+  <TopOrLeft />
+  <MainContent />
 </template>
 
 <script>
