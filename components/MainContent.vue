@@ -36,6 +36,28 @@
     <p>
       Medium post...
     </p>
+
+    <!--    <h1 style="margin-top: 5rem;">-->
+    <!--      Some slides-->
+    <!--    </h1>-->
+    <!--    <p>-->
+    <!--      <a-->
+    <!--        href="https://fr.slideshare.net/CedricNicoloso/vue-testing-vue-sydney-meetup-dec-2017"-->
+    <!--        target="_blank"-->
+    <!--      >-->
+    <!--        Vue testing<br />-->
+    <!--        Vue.js Sydney Meetup | Dec. 2017-->
+    <!--      </a>-->
+    <!--    </p>-->
+
+    <!--    <h1 style="margin-top: 5rem;">-->
+    <!--      What I read-->
+    <!--    </h1>-->
+    <!--    <p>-->
+    <!--      <a href="https://medium.com/@glouby/has-recommended" target="_blank">-->
+    <!--        Medium claps-->
+    <!--      </a>-->
+    <!--    </p>-->
   </div>
 </template>
 
