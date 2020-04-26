@@ -1,6 +1,13 @@
 <template>
   <div class="content-wrap">
     <h1>
+      Who I am
+    </h1>
+    <p>
+      JavaScript full-stack developer
+    </p>
+
+    <h1 style="margin-top: 5rem;">
       What I like
     </h1>
     <p>
