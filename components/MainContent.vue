@@ -12,18 +12,15 @@
     <p>
       WebStorm
     </p>
+
     <h1 style="margin-top: 5rem;">
       What I code
     </h1>
     <p>
-      <a
-        href="https://cedric25.github.io/ages-and-birthdays/"
-        target="_blank"
-        class="ced-link"
-      >
+      <a href="https://cedric25.github.io/ages-and-birthdays/" target="_blank" class="ced-link">
         <div style="display: flex; align-items: center;">
           <div style="margin-right: 0.7em;">
-            <img src="favicon-32x32.png" style="width: 20px;" />
+            <img src="ages-and-birthdays-icon.png" style="width: 20px;" />
           </div>
           <div>
             Ages and Birthdays
@@ -31,6 +28,7 @@
         </div>
       </a>
     </p>
+
     <h1 style="margin-top: 5rem;">
       What I write
     </h1>
