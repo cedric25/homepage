@@ -4,8 +4,8 @@
 </template>
 
 <script>
-import TopOrLeft from './components/TopOrLeft.vue'
-import MainContent from './components/MainContent.vue'
+import TopOrLeft from './src/components/TopOrLeft.vue'
+import MainContent from './src/components/MainContent.vue'
 
 export default {
   components: {
