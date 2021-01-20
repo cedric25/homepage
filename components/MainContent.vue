@@ -4,7 +4,8 @@
       Who I am
     </h1>
     <p>
-      JavaScript full-stack developer
+      Happy JavaScript full-stack developer at
+      <a href="https://indy.fr/" target="_blank" class="indy-link">Indy</a> 🚀
     </p>
 
     <h1 style="margin-top: 5rem;">
@@ -20,7 +21,7 @@
     <h1 style="margin-top: 5rem;">
       What I code
     </h1>
-    <p>
+    <div class="ced-link-wrap">
       <a href="https://cedric25.github.io/ages-and-birthdays/" target="_blank" class="ced-link">
         <div style="display: flex; align-items: center;">
           <div style="margin-right: 0.7em;">
@@ -31,42 +32,21 @@
           </div>
         </div>
       </a>
-    </p>
+    </div>
 
     <h1 style="margin-top: 5rem;">
       What I write
     </h1>
-    <p>
-      <a
-        href="https://medium.com/front-end-weekly/from-vuetify-to-tailwind-a7e83284ddfc"
-        target="_blank"
-        class="ced-link"
-      >
-        <div style="display: flex; align-items: center;">
-          <div style="width: 10px; margin-right: 0.7em;">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              id="Layer_1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 330 330"
-              style="enable-background: new 0 0 330 330;"
-              xml:space="preserve"
-            >
-              <path
-                id="XMLID_222_"
-                d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"
-              />
-            </svg>
-          </div>
-          <div>
-            From Vuetify to tailwind
-          </div>
-        </div>
-      </a>
-    </p>
+    <WriteLink
+      title="Goodbye submit buttons"
+      written-at="January 2021"
+      link="https://medium.com/front-end-weekly/goodbye-submit-buttons-1c1e19f73c70"
+    />
+    <WriteLink
+      title="From Vuetify to tailwind"
+      written-at="April 2020"
+      link="https://medium.com/front-end-weekly/from-vuetify-to-tailwind-a7e83284ddfc"
+    />
 
     <!--    <h1 style="margin-top: 5rem;">-->
     <!--      Some slides-->
@@ -93,12 +73,19 @@
 </template>
 
 <script>
+import WriteLink from './WriteLink.vue'
+
 export default {
   name: 'MainContent',
+  components: {
+    WriteLink,
+  },
 }
 </script>
 
 <style scoped lang="scss">
+@import "../assets/style.css";
+
 $screen-xs: 400px;
 $screen-sm: 640px;
 $screen-md: 768px;
@@ -106,11 +93,11 @@ $screen-lg: 1024px;
 $screen-xl: 1280px;
 
 .content-wrap {
-  padding: 3rem;
+  padding: 3rem 3rem 9rem 3rem;
   flex: 1;
 
   @media (min-width: $screen-sm) {
-    padding: 3rem 5rem;
+    padding: 3rem 5rem 9rem 5rem;
   }
 
   @media (min-width: $screen-md) {
@@ -139,19 +126,9 @@ h1 {
   }
 }
 
-.ced-link {
-  display: inline-block;
-  color: inherit;
+.indy-link {
+  color: #001d6c;
+  font-weight: 700;
   text-decoration: none;
-  transition-duration: 0.2s;
-  transition-property: background-color;
-  border-radius: 2em;
-  padding: 0.7em 1.2em 0.7em 0.7em;
-  margin-left: -1em;
-
-  &:hover {
-    /*background-color: rgba(29, 161, 242, 0.1);*/
-    background-color: rgba(16, 135, 117, 0.1);
-  }
 }
 </style>
