@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "lint": "prettier src --check",
+    "lint:fix": "prettier src --write"
   },
   "dependencies": {
     "vue": "3.0.0-rc.4"
