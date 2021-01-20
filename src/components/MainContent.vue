@@ -84,7 +84,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/style.css";
+@import '../assets/style.css';
 
 $screen-xs: 400px;
 $screen-sm: 640px;
