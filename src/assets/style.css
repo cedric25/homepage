@@ -1,5 +1,12 @@
 .ced-link-wrap {
   margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 850px) {
+  .ced-link-wrap {
+    flex-direction: row;
+  }
 }
 
 .ced-link {
@@ -11,9 +18,29 @@
   border-radius: 2em;
   padding: 0.7em 0.9em 0.7em 0.9em;
   margin-left: -1em;
+  background-color: rgba(16, 135, 117, 0.1);
+}
+@media (min-width: 850px) {
+  .ced-link {
+    background: none;
+  }
+}
+.ced-link:hover {
+  background-color: rgba(16, 135, 117, 0.1);
 }
 
-.ced-link:hover {
-  /*background-color: rgba(29, 161, 242, 0.1);*/
-  background-color: rgba(16, 135, 117, 0.1);
+.link-note {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  font-size: 0.8em;
+  letter-spacing: -0.025em;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+@media (min-width: 850px) {
+  .link-note {
+    margin-top: 0;
+    margin-bottom: -1px;
+  }
 }

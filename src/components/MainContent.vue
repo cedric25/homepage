@@ -22,7 +22,7 @@
       What I code
     </h1>
     <div class="ced-link-wrap">
-      <a href="https://cedric25.github.io/ages-and-birthdays/" target="_blank" class="ced-link">
+      <a href="https://ages-and-birthdays.netlify.app/" target="_blank" class="ced-link">
         <div style="display: flex; align-items: center;">
           <div style="margin-right: 0.7em;">
             <img src="/public/ages-and-birthdays-icon.png" style="width: 20px;" />
@@ -32,6 +32,14 @@
           </div>
         </div>
       </a>
+      <span class="link-note">
+        (<a
+          href="https://github.com/cedric25/ages-and-birthdays"
+          target="_blank"
+          style="color: #001d6c;"
+          >Github</a
+        >)
+      </span>
     </div>
 
     <h1 style="margin-top: 5rem;">

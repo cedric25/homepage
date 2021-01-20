@@ -25,9 +25,9 @@
         </div>
       </div>
     </a>
-    <span style="margin-left: 1em; font-size: 0.8em; letter-spacing: -0.025em;"
-      >({{ writtenAt }})</span
-    >
+    <span class="link-note">
+      ({{ writtenAt }})
+    </span>
   </div>
 </template>
 
