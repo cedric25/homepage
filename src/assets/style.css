@@ -1,3 +1,12 @@
+.link {
+  color: #001d6c;
+  text-decoration: none;
+  font-weight: 500;
+}
+.link-book {
+  margin-left: 0.25em;
+}
+
 .ced-link-wrap {
   margin-top: 1em;
   display: flex;

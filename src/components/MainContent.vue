@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrap">
     <h1>
-      Who I am
+      I am
     </h1>
     <p>
       Happy JavaScript full-stack developer at
@@ -9,7 +9,7 @@
     </p>
 
     <h1 style="margin-top: 5rem;">
-      What I like
+      I like
     </h1>
     <p>
       Vue, Node
@@ -19,7 +19,7 @@
     </p>
 
     <h1 style="margin-top: 5rem;">
-      What I code
+      I code
     </h1>
     <div class="ced-link-wrap">
       <a href="https://ages-and-birthdays.netlify.app/" target="_blank" class="ced-link">
@@ -33,17 +33,14 @@
         </div>
       </a>
       <span class="link-note">
-        (<a
-          href="https://github.com/cedric25/ages-and-birthdays"
-          target="_blank"
-          style="color: #001d6c;"
+        (<a href="https://github.com/cedric25/ages-and-birthdays" target="_blank" class="link"
           >Github</a
         >)
       </span>
     </div>
 
     <h1 style="margin-top: 5rem;">
-      What I write
+      I write
     </h1>
     <WriteLink
       title="Goodbye submit buttons"
@@ -69,24 +66,113 @@
     <!--      </a>-->
     <!--    </p>-->
 
-    <!--    <h1 style="margin-top: 5rem;">-->
-    <!--      What I read-->
-    <!--    </h1>-->
-    <!--    <p>-->
-    <!--      <a href="https://medium.com/@glouby/has-recommended" target="_blank">-->
-    <!--        Medium claps-->
-    <!--      </a>-->
-    <!--    </p>-->
+    <h1 style="margin-top: 5rem;">
+      I read
+    </h1>
+    <BookRead
+      title="📙 Inside the Tornado"
+      year="2020"
+      keywords="Startups, high-tech innovations and lifecycle adoption, crossing the chasm, gorilla, chimpanzees and monkeys."
+      link="https://www.goodreads.com/book/show/61336.Inside_the_Tornado"
+    />
+    <BookRead
+      title="📗 @War:"
+      subtitle="The Rise of the Military-Internet Complex"
+      year="2020"
+      keywords="Hacking and cyber espionage, U.S. vs China, economic intelligence."
+      link="https://www.goodreads.com/book/show/20448184-war"
+    />
+    <BookRead
+      title="📒 The Manager's Path:"
+      subtitle="A Guide for Tech Leaders Navigating Growth and Change"
+      year="2020"
+      keywords="Improving your management skills, mentoring, giving feedback, 1-on-1."
+      link="https://www.goodreads.com/book/show/33369254-the-manager-s-path"
+    />
+    <BookRead
+      title="📕 The five dysfunctions of a team"
+      year="2020"
+      keywords="Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results."
+      link="https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team"
+    />
+    <BookRead
+      title="📘 Thinking, Fast and Slow"
+      year="2019"
+      link="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+    />
+    <BookRead
+      title="📙 Building Social Business:"
+      subtitle="The New Kind of Capitalism That Serves Humanity's Most Pressing Needs"
+      year="2019"
+      link="https://www.goodreads.com/book/show/7721946-building-social-business"
+    />
+    <BookRead
+      title="📗 21 Lessons for the 21st Century"
+      year="2019"
+      link="https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century"
+    />
+    <BookRead
+      title="📒 Les 4 accords Toltèques 🇫🇷"
+      year="2018"
+      link="https://www.goodreads.com/it/book/show/1285456.Les_quatre_accords_tolt_ques"
+    />
+    <BookRead
+      title="📕 Quiet:"
+      subtitle=" The Power of Introverts in a World That Can't Stop Talking"
+      year="2018"
+      link="https://www.goodreads.com/book/show/8520610-quiet"
+    />
+    <BookRead
+      title="📘 Crushing It!:"
+      subtitle="How Great Entrepreneurs Build Their Business and Influence—and How You Can, Too"
+      year="2018"
+      link="https://www.goodreads.com/book/show/36045512-crushing-it"
+    />
+    <BookRead
+      title="📙 Factfulness:"
+      subtitle="Ten Reasons We're Wrong About the World"
+      year="2018"
+      link="https://www.goodreads.com/book/show/34890015-factfulness"
+    />
+    <BookRead
+      title="📗 Homo Deus:"
+      subtitle="A History of Tomorrow"
+      year="2018"
+      link="https://www.goodreads.com/book/show/31138556-homo-deus"
+    />
+    <BookRead
+      title="📒 Sapiens:"
+      subtitle="A Brief History of Humankind"
+      year="2018"
+      link="https://www.goodreads.com/book/show/23692271-sapiens"
+    />
+    <BookRead
+      title="📕 Pitch Anything"
+      year="2017"
+      link="https://www.goodreads.com/book/show/10321016-pitch-anything"
+    />
+    <BookRead
+      title="📘 Eloquent JavaScript"
+      year="2017"
+      link="https://www.goodreads.com/book/show/8910666-eloquent-javascript"
+    />
+    <BookRead
+      title="📙 Partageons ce qui nous départage 🇫🇷"
+      year="2015"
+      link="https://www.amazon.fr/Partageons-Ce-Qui-Nous-Departage/dp/2952589526"
+    />
   </div>
 </template>
 
 <script>
 import WriteLink from './WriteLink.vue'
+import BookRead from './BookRead.vue'
 
 export default {
   name: 'MainContent',
   components: {
     WriteLink,
+    BookRead,
   },
 }
 </script>
