@@ -1,9 +1,7 @@
-# Homepage
+# My personal homepage
 
-## Built with vuejs/vite
+## Built with:
 
-(https://github.com/vuejs/vite)
-
-## Problems to solve
-
- - Google Tag script gets removed from index.html at build time?!
+- [Vue.js v3](https://v3.vuejs.org/)
+- [vite](https://github.com/vuejs/vite)
+- [tailwindcss](https://tailwindcss.com/)
