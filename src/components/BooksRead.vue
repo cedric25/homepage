@@ -6,6 +6,7 @@
     keywords="Startups, high-tech innovations and market lifecycle adoption, crossing the chasm, gorilla, chimpanzees and monkeys."
     link="https://www.goodreads.com/book/show/61336.Inside_the_Tornado"
   />
+
   <BookRead
     cover="at-war.webp"
     title="@War:"
@@ -14,6 +15,7 @@
     keywords="Hacking and cyber espionage, U.S. vs China, economic intelligence."
     link="https://www.goodreads.com/book/show/20448184-war"
   />
+
   <BookRead
     cover="the-manager-s-path.webp"
     title="The Manager's Path:"
@@ -22,6 +24,7 @@
     keywords="Improving your management skills, mentoring, giving valuable feedback, 1-on-1."
     link="https://www.goodreads.com/book/show/33369254-the-manager-s-path"
   />
+
   <BookRead
     cover="the-five-dysfunctions-of-a-team.webp"
     title="The five dysfunctions of a team"
@@ -29,6 +32,7 @@
     keywords="Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results."
     link="https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team"
   />
+
   <BookRead
     cover="thinking-fast-and-slow.webp"
     title="Thinking, Fast and Slow"
@@ -36,6 +40,7 @@
     keywords="The two systems that drive the way we think, intuitions and laziness vs effortful mental activities."
     link="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
   />
+
   <BookRead
     cover="building-social-business.webp"
     title="Building Social Business:"
@@ -43,12 +48,14 @@
     year="2019"
     link="https://www.goodreads.com/book/show/7721946-building-social-business"
   />
+
   <BookRead
     cover="21-lessons-for-the-21st-century.webp"
     title="21 Lessons for the 21st Century"
     year="2019"
     link="https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century"
   />
+
   <BookRead
     cover="les-quatre-accords-tolteques.webp"
     title="Les 4 accords Toltèques 🇫🇷"
@@ -56,6 +63,7 @@
     keywords="Respecter votre parole, ne pas se sentir toujours visé, ne faites pas de suppositions, faites toujours de votre mieux."
     link="https://www.goodreads.com/it/book/show/1285456.Les_quatre_accords_tolt_ques"
   />
+
   <BookRead
     cover="quiet.webp"
     title="Quiet:"
@@ -64,6 +72,7 @@
     keywords="You accidentally land in the Artic, you have to choose 15 items. Usually you take ideas from the people talking louder... Too bad if someone had experience of cold environment but was expressing his/her ideas too quietly."
     link="https://www.goodreads.com/book/show/8520610-quiet"
   />
+
   <BookRead
     cover="crushing-it.webp"
     title="Crushing It!:"
@@ -72,6 +81,7 @@
     keywords="Social media, personal brand, altruism."
     link="https://www.goodreads.com/book/show/36045512-crushing-it"
   />
+
   <BookRead
     cover="factfulness.webp"
     title="Factfulness:"
@@ -80,6 +90,7 @@
     keywords="The world has changed, but the world view has not, at least in the head of the westerners."
     link="https://www.goodreads.com/book/show/34890015-factfulness"
   />
+
   <BookRead
     cover="homo-deus.webp"
     title="Homo Deus:"
@@ -87,6 +98,7 @@
     year="2018"
     link="https://www.goodreads.com/book/show/31138556-homo-deus"
   />
+
   <BookRead
     cover="sapiens.webp"
     title="Sapiens:"
@@ -94,6 +106,7 @@
     year="2018"
     link="https://www.goodreads.com/book/show/23692271-sapiens"
   />
+
   <BookRead
     cover="pitch-anything.webp"
     title="Pitch Anything"
@@ -101,6 +114,7 @@
     keywords="The crocodile brain, the mid-brain, and the neo-cortex."
     link="https://www.goodreads.com/book/show/10321016-pitch-anything"
   />
+
   <BookRead
     cover="eloquent-javascript.webp"
     title="Eloquent JavaScript"
@@ -114,6 +128,7 @@
     title="Une politique pour le SI"
     year="2015"
     keywords="Prefer tests over documentation, agile methodology, mix innovation with system stability."
+    link="https://www.decitre.fr/livres/une-politique-pour-le-systeme-d-information-9782952589505.html"
   />
 
   <BookRead
@@ -134,6 +149,7 @@
       >USI</a
     >.
   </BookRead>
+
   <BookRead
     cover="les-geants-du-web.webp"
     title="Les Géants du Web 🇫🇷"
