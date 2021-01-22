@@ -7,13 +7,13 @@
         />
       </div>
       <div>
-        <h2 class="text-white opacity-50 text-2xl font-bold mt-5 sm:mb-5">
+        <h2 class="text-white opacity-50 text-2xl font-bold mt-6 sm:mb-6">
           Cedric Nicoloso
         </h2>
         <div class="links flex items-center justify-center md:flex-col lg:flex-row">
           <a
             href="https://github.com/cedric25"
-            class="text-white opacity-50 p-3 mb-3 hover:opacity-100 mt-0 md:mt-8 lg:mt-0"
+            class="text-white opacity-50 p-4 mb-3 hover:opacity-100 mt-0 md:mt-8 lg:mt-0"
             target="_blank"
             title="Github"
           >
@@ -33,7 +33,7 @@
           </a>
           <a
             href="https://twitter.com/glouby"
-            class="text-white opacity-50 p-3 mb-3 hover:opacity-100"
+            class="text-white opacity-50 p-4 mb-3 hover:opacity-100"
             target="_blank"
             title="Twitter"
           >
@@ -53,12 +53,13 @@
           </a>
           <a
             href="https://www.linkedin.com/in/cedricnicoloso/"
-            class="text-white opacity-50 p-3 mb-3 hover:opacity-100"
+            class="text-white opacity-50 p-4 hover:opacity-100"
+            style="margin-bottom: 0.85rem;"
             target="_blank"
             title="LinkedIn"
           >
             <svg
-              class="w-6 h-6"
+              style="width: 1.4rem; height: 1.4rem;"
               viewBox="-4 -4 100 100"
               fill="none"
               stroke="currentColor"
