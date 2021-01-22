@@ -25,7 +25,7 @@
       <a href="https://ages-and-birthdays.netlify.app/" target="_blank" class="ced-link">
         <div style="display: flex; align-items: center;">
           <div style="margin-right: 0.7em;">
-            <img src="/public/ages-and-birthdays-icon.png" style="width: 20px;" />
+            <img src="/ages-and-birthdays-icon.png" style="width: 20px;" />
           </div>
           <div>
             Ages and Birthdays
