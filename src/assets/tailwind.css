@@ -1,4 +1,7 @@
-/* ./src/index.css */
+:root {
+  --color-indy: #001d6c;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

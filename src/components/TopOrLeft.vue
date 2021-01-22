@@ -6,34 +6,39 @@
           src="https://lh3.googleusercontent.com/-OyPnmbDkF0k/AAAAAAAAAAI/AAAAAAAAChk/GUGJvIFfbgk/photo.jpg"
         />
       </div>
-      <div class="name-and-links">
-        <h2 class="title">
+      <div>
+        <h2 class="text-white opacity-50 text-2xl font-bold mt-5 sm:mb-5">
           Cedric Nicoloso
         </h2>
-        <div class="links">
-          <a href="https://github.com/cedric25" target="_blank" title="Github">
+        <div class="links flex items-center justify-center md:flex-col lg:flex-row">
+          <a
+            href="https://github.com/cedric25"
+            class="text-white opacity-50 p-3 mb-3 hover:opacity-100 mt-0 md:mt-8 lg:mt-0"
+            target="_blank"
+            title="Github"
+          >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              class="w-6 h-6"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="feather feather-github"
             >
               <path
                 d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
               ></path>
             </svg>
           </a>
-          <a href="https://twitter.com/glouby" target="_blank" title="Twitter">
+          <a
+            href="https://twitter.com/glouby"
+            class="text-white opacity-50 p-3 mb-3 hover:opacity-100"
+            target="_blank"
+            title="Twitter"
+          >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              class="w-6 h-6"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -48,19 +53,18 @@
           </a>
           <a
             href="https://www.linkedin.com/in/cedricnicoloso/"
+            class="text-white opacity-50 p-3 mb-3 hover:opacity-100"
             target="_blank"
             title="LinkedIn"
-            class="linkedin-link"
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
               viewBox="-4 -4 100 100"
               fill="none"
               stroke="currentColor"
               stroke-width="8"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="h-5 w-5 text-white"
             >
               <path
                 d="M11.185,0.08C5.004,0.08,0.001,5.092,0,11.259c0,6.173,5.003,11.184,11.186,11.184c6.166,0,11.176-5.011,11.176-11.184
@@ -77,9 +81,9 @@
         </div>
       </div>
     </div>
-    <div class="footer">
+    <div class="text-white opacity-50 text-xss pl-3 pb-2 hidden md:block">
       Design from
-      <a href="https://bansal.io/" target="_blank">bansal.io</a>
+      <a href="https://bansal.io/" class="underline" target="_blank">bansal.io</a>
     </div>
   </div>
 </template>
@@ -166,75 +170,6 @@ $screen-xl: 1280px;
           width: 100px;
         }
       }
-    }
-
-    .name-and-links {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      .links {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-
-        @media (min-width: $screen-md) {
-          flex-direction: column;
-
-          a:first-child {
-            margin-top: 2em;
-          }
-        }
-
-        @media (min-width: $screen-lg) {
-          flex-direction: row;
-
-          a:first-child {
-            margin-top: 0;
-          }
-        }
-
-        a {
-          color: white;
-          opacity: 0.5;
-          padding: 0.7rem;
-          margin-bottom: 0.6em;
-
-          @media (min-width: $screen-md) {
-            padding: 0.7rem 1rem;
-          }
-
-          &:hover {
-            opacity: 1;
-          }
-
-          &.linkedin-link {
-            width: 23px;
-            height: 23px;
-            margin-bottom: 0.75em;
-
-            @media (min-width: $screen-md) and (max-width: $screen-lg - 1) {
-              margin-bottom: 0;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .footer {
-    display: none;
-    font-size: 0.7em;
-    padding: 0 0.5em 0.6em 1em;
-
-    @media (min-width: $screen-md) {
-      display: block;
-    }
-
-    a {
-      color: white;
     }
   }
 }

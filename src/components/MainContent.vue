@@ -1,31 +1,31 @@
 <template>
   <div class="content-wrap">
-    <h1>
+    <h1 class="mt-5">
       I am
     </h1>
     <p>
       Happy JavaScript full-stack developer at
-      <a href="https://indy.fr/" target="_blank" class="indy-link">Indy</a> 🚀
+      <a href="https://indy.fr/" target="_blank" class="font-bold text-indy">Indy</a> 🚀
     </p>
 
-    <h1 style="margin-top: 5rem;">
-      I like
-    </h1>
-    <p>
-      Vue, Node
-    </p>
-    <p>
-      apollo, tailwindcss, WebStorm...
-    </p>
+    <!--    <h1 class="mt-20">-->
+    <!--      I like-->
+    <!--    </h1>-->
+    <!--    <p>-->
+    <!--      Vue, Node-->
+    <!--    </p>-->
+    <!--    <p>-->
+    <!--      apollo, tailwindcss, WebStorm...-->
+    <!--    </p>-->
 
-    <h1 style="margin-top: 5rem;">
+    <h1 class="mt-20">
       I code
     </h1>
     <div class="ced-link-wrap">
       <a href="https://ages-and-birthdays.netlify.app/" target="_blank" class="ced-link">
-        <div style="display: flex; align-items: center;">
-          <div style="margin-right: 0.7em;">
-            <img src="/ages-and-birthdays-icon.png" style="width: 20px;" />
+        <div class="flex items-center">
+          <div class="mr-3">
+            <img src="/ages-and-birthdays-icon.png" class="w-5" />
           </div>
           <div>
             Ages and Birthdays
@@ -39,7 +39,7 @@
       </span>
     </div>
 
-    <h1 style="margin-top: 5rem;">
+    <h1 class="mt-20">
       I write
     </h1>
     <WriteLink
@@ -47,13 +47,15 @@
       written-at="January 2021"
       link="https://medium.com/front-end-weekly/goodbye-submit-buttons-1c1e19f73c70"
     />
-    <WriteLink
-      title="From Vuetify to tailwind"
-      written-at="April 2020"
-      link="https://medium.com/front-end-weekly/from-vuetify-to-tailwind-a7e83284ddfc"
-    />
+    <div class="mt-6">
+      <WriteLink
+        title="From Vuetify to tailwind"
+        written-at="April 2020"
+        link="https://medium.com/front-end-weekly/from-vuetify-to-tailwind-a7e83284ddfc"
+      />
+    </div>
 
-    <!--    <h1 style="margin-top: 5rem;">-->
+    <!--    <h1 class="mt-20">-->
     <!--      Some slides-->
     <!--    </h1>-->
     <!--    <p>-->
@@ -66,7 +68,7 @@
     <!--      </a>-->
     <!--    </p>-->
 
-    <h1 style="margin-top: 5rem;">
+    <h1 class="mt-20">
       I read
     </h1>
     <BookRead
@@ -177,52 +179,42 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-@import '../assets/style.css';
-
-$screen-xs: 400px;
-$screen-sm: 640px;
-$screen-md: 768px;
-$screen-lg: 1024px;
-$screen-xl: 1280px;
-
+<style>
 .content-wrap {
   padding: 3rem 3rem 9rem 3rem;
   flex: 1;
-
-  @media (min-width: $screen-sm) {
+}
+@screen sm {
+  .content-wrap {
     padding: 3rem 5rem 9rem 5rem;
   }
-
-  @media (min-width: $screen-md) {
+}
+@screen md {
+  .content-wrap {
     margin-left: 300px;
   }
-
-  @media (min-width: $screen-lg) {
+}
+@screen lg {
+  .content-wrap {
     margin-left: 400px;
   }
-  @media (min-width: $screen-xl) {
+}
+@screen xl {
+  .content-wrap {
     margin-left: 500px;
   }
 }
 
 h1 {
   display: inline-block;
-
-  &::after {
-    content: ' ';
-    width: 80%;
-    display: block;
-    border: 2px solid #108775;
-    margin-top: 0.5rem;
-    margin-bottom: 0.25rem;
-    border-radius: 0.25rem;
-  }
 }
-
-.indy-link {
-  color: #001d6c;
-  font-weight: 700;
-  text-decoration: none;
+h1::after {
+  content: ' ';
+  width: 80%;
+  display: block;
+  border: 2px solid #108775;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  border-radius: 0.25rem;
 }
 </style>
