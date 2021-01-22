@@ -3,7 +3,7 @@
     <div class="content">
       <div class="profile-picture">
         <img
-          src="https://lh3.googleusercontent.com/-OyPnmbDkF0k/AAAAAAAAAAI/AAAAAAAAChk/GUGJvIFfbgk/photo.jpg"
+          src="/cedric-nicoloso.webp"
           alt="Cedric Nicoloso profile picture"
           width="100"
           height="100"
