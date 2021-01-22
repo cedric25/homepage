@@ -18,6 +18,7 @@
             href="https://github.com/cedric25"
             class="text-white opacity-50 p-4 mb-3 hover:opacity-100 mt-0 md:mt-8 lg:mt-0"
             target="_blank"
+            rel="noopener"
             title="Github"
           >
             <svg
@@ -38,6 +39,7 @@
             href="https://twitter.com/glouby"
             class="text-white opacity-50 p-4 mb-3 hover:opacity-100"
             target="_blank"
+            rel="noopener"
             title="Twitter"
           >
             <svg
@@ -59,6 +61,7 @@
             class="text-white opacity-50 p-4 hover:opacity-100"
             style="margin-bottom: 0.85rem;"
             target="_blank"
+            rel="noopener"
             title="LinkedIn"
           >
             <svg
@@ -87,7 +90,7 @@
     </div>
     <div class="text-white opacity-50 text-xss pl-3 pb-2 hidden md:block">
       Design from
-      <a href="https://bansal.io/" class="underline" target="_blank">bansal.io</a>
+      <a href="https://bansal.io/" class="underline" target="_blank" rel="noopener">bansal.io</a>
     </div>
   </div>
 </template>

@@ -6,7 +6,9 @@
       :alt="'Book cover of ' + imgAlt"
       class="inline-block w-4 mr-3 sm:mr-4 -mt-3"
     />
-    <a :href="link" class="text-lg font-medium text-indy" target="_blank">{{ title }}</a>
+    <a :href="link" class="text-lg font-medium text-indy" target="_blank" rel="noopener">{{
+      title
+    }}</a>
     <span v-if="subtitle" class="text-sm ml-2 tracking-tight">{{ subtitle }}</span>
     <!--    <span class="text-xs ml-2"> ({{ year }}) </span>-->
     <div v-if="keywords" class="text-gray-700 mt-1 font-sans">{{ keywords }}</div>

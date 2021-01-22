@@ -1,6 +1,6 @@
 <template>
   <div class="ced-link-wrap">
-    <a :href="link" target="_blank" class="ced-link">
+    <a :href="link" target="_blank" rel="noopener" class="ced-link">
       <div class="flex items-center">
         <div class="w-3 mr-2">
           <svg x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">

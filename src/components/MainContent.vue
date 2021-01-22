@@ -5,7 +5,8 @@
     </h1>
     <p>
       A happy JavaScript full-stack developer at
-      <a href="https://indy.fr/" target="_blank" class="font-bold text-indy">Indy</a>&nbsp;🚀
+      <a href="https://indy.fr/" target="_blank" rel="noopener" class="font-bold text-indy">Indy</a
+      >&nbsp;🚀
     </p>
 
     <!--    <h1 class="mt-20">-->
@@ -22,7 +23,12 @@
       I code
     </h1>
     <div class="ced-link-wrap">
-      <a href="https://ages-and-birthdays.netlify.app/" target="_blank" class="ced-link">
+      <a
+        href="https://ages-and-birthdays.netlify.app/"
+        target="_blank"
+        rel="noopener"
+        class="ced-link"
+      >
         <div class="flex items-center">
           <div class="mr-3">
             <img
@@ -41,8 +47,9 @@
       <span class="link-note">
         (<a
           href="https://github.com/cedric25/ages-and-birthdays"
-          target="_blank"
           class="font-medium text-indy"
+          target="_blank"
+          rel="noopener"
           >Github</a
         >)
       </span>
@@ -71,6 +78,7 @@
     <!--      <a-->
     <!--        href="https://fr.slideshare.net/CedricNicoloso/vue-testing-vue-sydney-meetup-dec-2017"-->
     <!--        target="_blank"-->
+    <!--        rel="noopener"-->
     <!--      >-->
     <!--        Vue testing<br />-->
     <!--        Vue.js Sydney Meetup | Dec. 2017-->
