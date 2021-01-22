@@ -1,6 +1,11 @@
 <template>
   <div class="mt-10">
-    <img v-if="cover" :src="'/books/' + cover" class="inline-block w-4 mr-3 sm:mr-4 -mt-3" />
+    <img
+      v-if="cover"
+      :src="'/books/' + cover"
+      :alt="'Book cover of ' + imgAlt"
+      class="inline-block w-4 mr-3 sm:mr-4 -mt-3"
+    />
     <a :href="link" class="text-lg font-medium text-indy" target="_blank">{{ title }}</a>
     <span v-if="subtitle" class="text-sm ml-2 tracking-tight">{{ subtitle }}</span>
     <!--    <span class="text-xs ml-2"> ({{ year }}) </span>-->
@@ -19,6 +24,11 @@ export default {
     link: { type: String },
     year: { type: String, required: true },
     keywords: { type: String },
+  },
+  computed: {
+    imgAlt() {
+      return this.cover.split('.')[0].replaceAll('-', ' ')
+    },
   },
 }
 </script>

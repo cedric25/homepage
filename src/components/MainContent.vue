@@ -25,7 +25,13 @@
       <a href="https://ages-and-birthdays.netlify.app/" target="_blank" class="ced-link">
         <div class="flex items-center">
           <div class="mr-3">
-            <img src="/ages-and-birthdays-icon.png" class="w-5" />
+            <img
+              src="/ages-and-birthdays-icon.png"
+              class="w-5"
+              alt="Ages and Birthdays app icon"
+              width="20"
+              height="20"
+            />
           </div>
           <div>
             Ages and Birthdays
