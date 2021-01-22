@@ -8,11 +8,6 @@ p {
 
 /* ----- */
 
-.link {
-  @apply font-medium;
-  color: var(--color-indy);
-}
-
 .ced-link-wrap {
   @apply flex flex-col mt-4;
 }

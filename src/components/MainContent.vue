@@ -4,8 +4,8 @@
       I am
     </h1>
     <p>
-      Happy JavaScript full-stack developer at
-      <a href="https://indy.fr/" target="_blank" class="font-bold text-indy">Indy</a> 🚀
+      A happy JavaScript full-stack developer at
+      <a href="https://indy.fr/" target="_blank" class="font-bold text-indy">Indy</a>&nbsp;🚀
     </p>
 
     <!--    <h1 class="mt-20">-->
@@ -33,7 +33,10 @@
         </div>
       </a>
       <span class="link-note">
-        (<a href="https://github.com/cedric25/ages-and-birthdays" target="_blank" class="link"
+        (<a
+          href="https://github.com/cedric25/ages-and-birthdays"
+          target="_blank"
+          class="font-medium text-indy"
           >Github</a
         >)
       </span>
@@ -71,112 +74,13 @@
     <h1 class="mt-20">
       I read
     </h1>
-    <BookRead
-      title="📙 Inside the Tornado"
-      year="2020"
-      keywords="Startups, high-tech innovations and lifecycle adoption, crossing the chasm, gorilla, chimpanzees and monkeys."
-      link="https://www.goodreads.com/book/show/61336.Inside_the_Tornado"
-    />
-    <BookRead
-      title="📗 @War:"
-      subtitle="The Rise of the Military-Internet Complex"
-      year="2020"
-      keywords="Hacking and cyber espionage, U.S. vs China, economic intelligence."
-      link="https://www.goodreads.com/book/show/20448184-war"
-    />
-    <BookRead
-      title="📒 The Manager's Path:"
-      subtitle="A Guide for Tech Leaders Navigating Growth and Change"
-      year="2020"
-      keywords="Improving your management skills, mentoring, giving feedback, 1-on-1."
-      link="https://www.goodreads.com/book/show/33369254-the-manager-s-path"
-    />
-    <BookRead
-      title="📕 The five dysfunctions of a team"
-      year="2020"
-      keywords="Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results."
-      link="https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team"
-    />
-    <BookRead
-      title="📘 Thinking, Fast and Slow"
-      year="2019"
-      link="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
-    />
-    <BookRead
-      title="📙 Building Social Business:"
-      subtitle="The New Kind of Capitalism That Serves Humanity's Most Pressing Needs"
-      year="2019"
-      link="https://www.goodreads.com/book/show/7721946-building-social-business"
-    />
-    <BookRead
-      title="📗 21 Lessons for the 21st Century"
-      year="2019"
-      link="https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century"
-    />
-    <BookRead
-      title="📒 Les 4 accords Toltèques 🇫🇷"
-      year="2018"
-      link="https://www.goodreads.com/it/book/show/1285456.Les_quatre_accords_tolt_ques"
-    />
-    <BookRead
-      title="📕 Quiet:"
-      subtitle=" The Power of Introverts in a World That Can't Stop Talking"
-      year="2018"
-      link="https://www.goodreads.com/book/show/8520610-quiet"
-    />
-    <BookRead
-      title="📘 Crushing It!:"
-      subtitle="How Great Entrepreneurs Build Their Business and Influence—and How You Can, Too"
-      year="2018"
-      link="https://www.goodreads.com/book/show/36045512-crushing-it"
-    />
-    <BookRead
-      title="📙 Factfulness:"
-      subtitle="Ten Reasons We're Wrong About the World"
-      year="2018"
-      link="https://www.goodreads.com/book/show/34890015-factfulness"
-    />
-    <BookRead
-      title="📗 Homo Deus:"
-      subtitle="A History of Tomorrow"
-      year="2018"
-      link="https://www.goodreads.com/book/show/31138556-homo-deus"
-    />
-    <BookRead
-      title="📒 Sapiens:"
-      subtitle="A Brief History of Humankind"
-      year="2018"
-      link="https://www.goodreads.com/book/show/23692271-sapiens"
-    />
-    <BookRead
-      title="📕 Pitch Anything"
-      year="2017"
-      link="https://www.goodreads.com/book/show/10321016-pitch-anything"
-    />
-    <BookRead
-      title="📘 Eloquent JavaScript"
-      year="2017"
-      link="https://www.goodreads.com/book/show/8910666-eloquent-javascript"
-    />
-    <BookRead
-      title="📙 Partageons ce qui nous départage 🇫🇷"
-      year="2015"
-      link="https://www.amazon.fr/Partageons-Ce-Qui-Nous-Departage/dp/2952589526"
-    />
+    <BooksRead />
   </div>
 </template>
 
-<script>
+<script setup>
 import WriteLink from './WriteLink.vue'
-import BookRead from './BookRead.vue'
-
-export default {
-  name: 'MainContent',
-  components: {
-    WriteLink,
-    BookRead,
-  },
-}
+import BooksRead from './BooksRead.vue'
 </script>
 
 <style>
@@ -191,16 +95,19 @@ export default {
 }
 @screen md {
   .content-wrap {
+    padding: 3rem 4rem 9rem 4rem;
     margin-left: 300px;
   }
 }
 @screen lg {
   .content-wrap {
+    padding: 3rem 5rem 9rem 5rem;
     margin-left: 400px;
   }
 }
 @screen xl {
   .content-wrap {
+    padding: 3rem 5rem 9rem 5rem;
     margin-left: 500px;
   }
 }
