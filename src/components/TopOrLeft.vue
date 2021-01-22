@@ -1,5 +1,5 @@
 <template>
-  <div class="black-wrap">
+  <div class="black-wrap bg-black">
     <div class="content">
       <div class="profile-picture">
         <img
@@ -60,6 +60,7 @@
               stroke-width="8"
               stroke-linecap="round"
               stroke-linejoin="round"
+              class="h-5 w-5 text-white"
             >
               <path
                 d="M11.185,0.08C5.004,0.08,0.001,5.092,0,11.259c0,6.173,5.003,11.184,11.186,11.184c6.166,0,11.176-5.011,11.176-11.184
@@ -91,8 +92,6 @@ $screen-lg: 1024px;
 $screen-xl: 1280px;
 
 .black-wrap {
-  background-color: black;
-
   @media (min-width: $screen-md) {
     width: 300px;
     position: fixed;
@@ -213,6 +212,7 @@ $screen-xl: 1280px;
 
           &.linkedin-link {
             width: 23px;
+            height: 23px;
             margin-bottom: 0.75em;
 
             @media (min-width: $screen-md) and (max-width: $screen-lg - 1) {
