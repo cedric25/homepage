@@ -89,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="text-white opacity-50 text-xss pl-3 pb-2 hidden md:block">
+    <div class="text-white opacity-50 text-xss pl-3 pb-2 hidden lg:block">
       Design from
       <a href="https://bansal.io/" class="underline" target="_blank" rel="noopener">bansal.io</a>
     </div>
