@@ -1,16 +1,17 @@
 <template>
-  <div class="black-wrap bg-black">
-    <div class="content">
-      <div class="profile-picture">
+  <div class="bg-black md:fixed md:min-h-full md:flex md:flex-col md:w-72 lg:w-96 xl:w-128">
+    <div class="flex-1 flex flex-row items-center justify-center md:flex-col">
+      <div class="profile-picture mr-4 xs:mr-8 md:mr-0">
         <img
           src="/cedric-nicoloso.webp"
           alt="Cedric Nicoloso profile picture"
+          class="rounded-full w-16 xs:w-20 md:w-24 shadow-white"
           width="100"
           height="100"
         />
       </div>
       <div>
-        <h2 class="text-white opacity-50 text-2xl font-bold mt-6 sm:mb-6">
+        <h2 class="text-white opacity-50 text-2xl font-bold mt-6 sm:mb-2 md:mb-0 lg:mb-6">
           Cedric Nicoloso
         </h2>
         <div class="links flex items-center justify-center md:flex-col lg:flex-row">
@@ -59,13 +60,13 @@
           <a
             href="https://www.linkedin.com/in/cedricnicoloso/"
             class="text-white opacity-50 p-4 hover:opacity-100"
-            style="margin-bottom: 0.85rem;"
+            style="margin-bottom: 0.85rem"
             target="_blank"
             rel="noopener"
             title="LinkedIn"
           >
             <svg
-              style="width: 1.4rem; height: 1.4rem;"
+              style="width: 1.4rem; height: 1.4rem"
               viewBox="-4 -4 100 100"
               fill="none"
               stroke="currentColor"
@@ -95,89 +96,8 @@
   </div>
 </template>
 
-<style scoped lang="scss">
-$screen-xs: 400px;
-$screen-sm: 640px;
-$screen-md: 768px;
-$screen-lg: 1024px;
-$screen-xl: 1280px;
-
-.black-wrap {
-  @media (min-width: $screen-md) {
-    width: 300px;
-    position: fixed;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  @media (min-width: $screen-lg) {
-    width: 400px;
-  }
-  @media (min-width: $screen-xl) {
-    width: 500px;
-  }
-
-  .content .title,
-  .footer {
-    color: white;
-    opacity: 0.5;
-  }
-
-  .content {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    @media (min-width: $screen-md) {
-      flex-direction: column;
-    }
-
-    .title {
-      font-size: 1.1em;
-      margin-bottom: 0;
-
-      @media (min-width: $screen-xs) {
-        font-size: 1.5em;
-      }
-
-      @media (min-width: $screen-md) {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
-      }
-    }
-
-    .profile-picture {
-      margin-right: 1em;
-
-      @media (min-width: $screen-xs) {
-        margin-right: 2em;
-      }
-
-      @media (min-width: $screen-md) {
-        margin-right: 0;
-      }
-
-      img {
-        width: 60px;
-        border-radius: 50%;
-        box-shadow: 0 0 8px 0 white;
-
-        @media (min-width: $screen-xs) {
-          width: 75px;
-        }
-
-        @media (min-width: $screen-md) {
-          width: 100px;
-        }
-      }
-    }
-  }
+<style>
+.shadow-white {
+  box-shadow: 0 0 8px 0 white;
 }
 </style>

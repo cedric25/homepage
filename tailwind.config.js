@@ -3,6 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
+      xs: '400px',
       sm: '640px',
       md: '768px',
       dl: '850px',
@@ -19,6 +20,9 @@ module.exports = {
       },
       fontSize: {
         xss: '.7rem',
+      },
+      spacing: {
+        128: '31rem',
       },
     },
   },
