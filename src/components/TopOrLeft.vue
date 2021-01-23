@@ -14,10 +14,10 @@
         <h2 class="text-white opacity-50 text-2xl font-bold mt-6 sm:mb-2 md:mb-0 lg:mb-6">
           Cedric Nicoloso
         </h2>
-        <div class="links flex items-center justify-center md:flex-col lg:flex-row">
+        <div class="links flex items-center justify-center dl:flex-col lg:flex-row">
           <a
             href="https://github.com/cedric25"
-            class="text-white opacity-50 p-4 mb-3 hover:opacity-100 mt-0 md:mt-8 lg:mt-0"
+            class="text-white opacity-50 p-4 mb-3 hover:opacity-100 mt-0 dl:mt-8 lg:mt-0"
             target="_blank"
             rel="noopener"
             title="Github"
