@@ -9,15 +9,15 @@
     "lint:fix": "prettier src --write"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "vue": "3.0.11"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.0.4",
-    "@vue/compiler-sfc": "^3.0.5",
-    "autoprefixer": "10.2.3",
-    "postcss": "8.2.4",
+    "@vitejs/plugin-vue": "1.2.1",
+    "@vue/compiler-sfc": "3.0.11",
+    "autoprefixer": "10.2.5",
+    "postcss": "8.2.9",
     "prettier": "2.2.1",
-    "tailwindcss": "2.0.2",
-    "vite": "^2.0.0-beta.37"
+    "tailwindcss": "2.1.1",
+    "vite": "2.1.5"
   }
 }
