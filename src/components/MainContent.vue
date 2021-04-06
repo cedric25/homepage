@@ -59,10 +59,17 @@
       I write
     </h1>
     <WriteLink
-      title="Goodbye submit buttons"
-      written-at="January 2021"
-      link="https://medium.com/front-end-weekly/goodbye-submit-buttons-1c1e19f73c70"
+      title="From vue-cli to vitejs"
+      written-at="April 2021"
+      link="https://medium.com/nerd-for-tech/from-vue-cli-to-vitejs-648d2f5e031d"
     />
+    <div class="mt-6">
+      <WriteLink
+        title="Goodbye submit buttons"
+        written-at="January 2021"
+        link="https://medium.com/front-end-weekly/goodbye-submit-buttons-1c1e19f73c70"
+      />
+    </div>
     <div class="mt-6">
       <WriteLink
         title="From Vuetify to tailwind"
