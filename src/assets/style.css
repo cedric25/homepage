@@ -47,3 +47,10 @@ p {
     margin-bottom: -1px;
   }
 }
+
+/* ----- */
+
+.chip {
+  @apply text-sm py-1 px-2 rounded-xl;
+  background-color: rgba(0, 171, 255, 0.1)
+}

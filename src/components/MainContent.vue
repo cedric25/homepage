@@ -1,8 +1,6 @@
 <template>
   <div class="content-wrap">
-    <h1 class="mt-5">
-      I am
-    </h1>
+    <h1 class="mt-5">I am</h1>
     <p>
       A happy JavaScript full-stack developer at
       <a href="https://indy.fr/" target="_blank" rel="noopener" class="font-bold text-indy">Indy</a
@@ -19,9 +17,8 @@
     <!--      apollo, tailwindcss, WebStorm...-->
     <!--    </p>-->
 
-    <h1 class="mt-20">
-      I code
-    </h1>
+    <h1 class="mt-20">I code</h1>
+    <div class="font-sans">My playground project where I like to try things:</div>
     <div class="ced-link-wrap">
       <a
         href="https://ages-and-birthdays.netlify.app/"
@@ -39,9 +36,7 @@
               height="20"
             />
           </div>
-          <div>
-            Ages and Birthdays
-          </div>
+          <div>Ages and Birthdays</div>
         </div>
       </a>
       <span class="link-note">
@@ -55,9 +50,7 @@
       </span>
     </div>
 
-    <h1 class="mt-20">
-      I write
-    </h1>
+    <h1 class="mt-20">I write</h1>
     <WriteLink
       title="From vue-cli to vitejs"
       written-at="April 2021"
@@ -78,6 +71,27 @@
       />
     </div>
 
+    <h1 class="mt-20">I present</h1>
+    <p>
+      <router-link :to="{ name: 'prisma-talk' }" target="_blank" rel="noopener" class="ced-link">
+        <div class="flex items-center">
+          <div class="w-3 mr-2">
+            <svg x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+              <path
+                id="XMLID_222_"
+                d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"
+              />
+            </svg>
+          </div>
+          Prisma comme ORM pour PostgreSQL (FRENCH 🇫🇷)<br />
+        </div>
+      </router-link>
+      <div class="font-sans mt-2">
+        <span class="chip">LyonJS Meetup</span>
+        <span class="chip ml-2">Jul. 2021</span>
+      </div>
+    </p>
+
     <!--    <h1 class="mt-20">-->
     <!--      Some slides-->
     <!--    </h1>-->
@@ -92,9 +106,7 @@
     <!--      </a>-->
     <!--    </p>-->
 
-    <h1 class="mt-20">
-      I read
-    </h1>
+    <h1 class="mt-20">I read</h1>
     <BooksRead />
   </div>
 </template>

@@ -4,13 +4,18 @@
 </template>
 
 <script>
-import TopOrLeft from './src/components/TopOrLeft.vue'
-import MainContent from './src/components/MainContent.vue'
+import TopOrLeft from '../components/TopOrLeft.vue'
+import MainContent from '../components/MainContent.vue'
 
 export default {
+  name: 'Home',
   components: {
     TopOrLeft,
     MainContent,
   },
 }
 </script>
+
+<style scoped>
+
+</style>
