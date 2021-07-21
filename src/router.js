@@ -8,7 +8,7 @@ const routes = [
     name: 'prisma-talk',
     path: '/2021-07/prisma-talk',
     beforeEnter() {
-      window.location.replace('/prisma-talk/index.html')
+      window.location.replace('https://prisma-talk.netlify.app/')
     },
   },
   { path: '/prisma-talk', redirect: { name: 'prisma-talk' } },
