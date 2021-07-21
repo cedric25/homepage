@@ -8,15 +8,21 @@ const routes = [
     name: 'prisma-talk',
     path: '/2021-07/prisma-talk',
     beforeEnter() {
+      console.log('plop ?')
       window.location.replace('https://prisma-talk.netlify.app/')
     },
   },
-  { path: '/prisma-talk', redirect: { name: 'prisma-talk' } },
+  {
+    path: '/prisma-talk',
+    beforeEnter() {
+      console.log('plop 2 ?')
+      window.location.replace('https://prisma-talk.netlify.app/')
+    },
+  },
 ]
 
 const router = createRouter({
-  // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 })
 
