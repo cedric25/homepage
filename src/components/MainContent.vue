@@ -99,9 +99,16 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import WriteLink from './WriteLink.vue'
 import BooksRead from './BooksRead.vue'
+
+export default {
+  components: {
+    WriteLink,
+    BooksRead,
+  },
+}
 </script>
 
 <style>

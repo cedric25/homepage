@@ -159,6 +159,12 @@
   />
 </template>
 
-<script setup>
+<script>
 import BookRead from './BookRead.vue'
+
+export default {
+  components: {
+    BookRead,
+  },
+}
 </script>
