@@ -1,6 +1,7 @@
 # My personal homepage
 
-Deprecated: See https://github.com/cedric25/homepage-astro
+Deprecated:  
+👉 See https://github.com/cedric25/homepage-astro
 
 ## Built with:
 
